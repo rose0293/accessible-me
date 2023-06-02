@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: #B3B3B3;
+  background-color: #00ff9d;
   margin: 0;
   padding: 0;
 }
@@ -74,4 +74,34 @@ form button {
   list-style-type: none;
   margin: 0;
   padding: 10px;
+}
+
+.skip-links a{
+  top: -3em;
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+h1{
+  display: flex;
+  justify-content: center;
+  background-color: #ffac38;
+  border: 3px solid black;
+}
+
+.owner, .welcome{
+  background-color: #ffac38;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+form{
+  width: 97%;
+}
+
+form .submit{
+  background-color:blue;
 }
